@@ -1,0 +1,489 @@
+// Basic Styles Start
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #d1d1d1;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2;
+	font-size: 15px;
+	color: #000000;
+}
+
+// Basic Styles End
+
+// Links Styles Start
+
+.main_title {
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+
+}
+
+.container__links {
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background-color: red;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: green;
+	border: 1px solid green;
+	transform: rotate(360deg);
+	transition: all 300ms;
+}
+
+a {
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}
+
+// Links Styles End
+
+// Statistics Page Styles Start
+
+.statistics_title {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.flex_top,
+.flex_bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.image_and_current {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.icon_current {
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
+	margin-right: 160px;
+	margin-left: 30px;
+}
+
+.flex_top_left,
+.flex_top_right,
+.flex_bottom_left,
+.flex_bottom_right {
+	border: 8px solid black;
+	width: 800px;
+	height: 400px;
+	margin-left: 30px
+}
+
+#currentValueComplete,
+#currentValueNotComplete {
+	font-size: 250px;
+}
+
+#currentValueCost,
+#currentValueCostPerson {
+	margin-top: 80px;
+	font-size: 70px;
+}
+
+.flex_top_paragraph,
+.flex_bottom_paragraph {
+	font-size: 50px;
+	text-align: center;
+}
+
+// Statistics Page Styles End
+
+// Songs Page Styles Start
+
+.songs_title {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+#nameOfBand {
+	margin-left: 30px;
+}
+
+#songList {
+	background-color: azure;
+	max-width: 90%;
+	margin-left: 30px;
+}
+
+.list_option {
+	background-color: azure;
+	font-size: 24px;
+	height: 40px;
+	border-bottom: 1px solid black;
+	margin-top: 12px;
+}
+
+.enter_song {
+ font-size: 30px;
+ font-family: 'Dancing Script', cursive;
+ margin-left: 30px;
+}
+
+
+#textField {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 70px;
+}
+
+#buttonSave {
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background-color: red;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+#buttonSave:hover {
+	background-color: green;
+	border: 1px solid green;
+	transform: rotate(360deg);
+	transition: all 300ms;
+}
+
+#buttonRememberBand {
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background-color: red;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+#buttonRememberBand:hover {
+	background-color: green;
+	border: 1px solid green;
+	transition: all 300ms;
+}
+
+.remove_btn {
+	width: 100px;
+	height: 20px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background-color: red;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.remove_btn:hover {
+	background-color: green;
+	border: 1px solid green;
+	transition: all 300ms;
+}
+
+.success {
+	display: none;
+	margin-left: 20px;
+	color: green;
+}
+
+#writeNameSong {
+	display: none;
+	color: red;
+	margin-left: 30px;
+}
+
+// Songs Page Styles End
+
+// Reservation Page Styles Start
+
+.reservation_title {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+#textOfNoneReservation {
+	display: none;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin-top: 300px;
+}
+
+#containerReservation {
+	display: block;
+	margin-left: 800px;
+}
+
+.formText {
+	font-size: 24px;
+	margin-left: 30px;
+}
+
+input,
+textarea,
+button {
+	margin-left: 30px;
+}
+
+#chooseDate,
+#chooseTime,
+#chooseAdress,
+#costSpecify {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#noticeField {
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.currency {
+	margin-left: 10px;
+}
+
+#buttonReserve {
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background-color: red;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+#buttonReserve:hover {
+	background-color: green;
+	border: 1px solid green;
+	transform: rotate(360deg);
+	transition: all 300ms;
+}
+
+#no {
+	display: none;
+	margin-left: 30px;
+	color: red;
+}
+
+// Reservation Page Styles End
+
+// Draft Page Styles Start
+
+.draft_title {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+#draftList {
+	display: none;
+	background-color: azure;
+	width: 90%;
+	margin-left: 30px;
+}
+
+#textOfNoneDraft {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin-top: 300px;
+}
+
+.option_draft {
+	font-size: 25px;
+	margin-bottom: 10px;
+	background-color: azure;
+}
+
+// Draft Page Styles End
+
+// Current RH Page Styles Start
+
+.current_rehearsal_title {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+#textOfNone {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	margin-top: 300px;
+}
+
+#currentBlock {
+	display: none;
+}
+
+.flex_top-cur {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.image_and_current-cur {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.icon_current-cur {
+	width: 160px;
+	height: 180px;
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 30px;
+}
+
+.flex_top_left-cur,
+.flex_top_right-cur,
+.flex_top_middle-cur {
+	border: 1px solid red;
+	width: 600px;
+	height: 300px;
+	margin-left: 20px
+}
+
+.current_value-cur {
+	font-size: 100px;
+}
+
+#dateOfRehearsal,
+#timeOfRehearsal,
+#costOfRehearsal,
+#addressOfRehearsal,
+#notesOfRehearsal {
+	font-size: 50px;
+	margin-top: 80px;
+	letter-spacing: 2px;
+}
+
+#costPerPersone {
+	font-size: 20px;
+	margin-top: 20px;
+	color: blue;
+}
+
+#notesOfRehearsal {
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+.middle {
+	border: 1px solid red;
+	width: 96.3%;
+	height: 300px;
+	margin-left: 45px;
+	margin-bottom: 30px;
+}
+
+.current_value_address {
+	font-size: 100px;
+}
+
+.icon_current_address {
+	width: 300px;
+	height: 180px;
+	margin-top: 20px;
+	margin-right: 400px;
+	margin-left: 30px;
+}
+
+.notes {
+	border: 1px solid red;
+	width: 96.3%;
+	margin-left: 45px;
+	margin-bottom: 30px;
+}
+
+.notes_title {
+	text-align: center;
+	font-size: 100px;
+}
+
+.buttons_flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#completedButton,
+#notCompletedButton {
+	width: 100px;
+	height: 50px;
+	border-radius: 30px;
+	cursor: pointer;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+
+#completedButton {
+	background-color: green;
+	border: 1px solid green;
+}
+
+#notCompletedButton {
+	background-color: red;
+	border: 1px solid red;
+}
+
+#completedButton:hover,
+#notCompletedButton:hover {
+	background-color: aqua;
+	border: 1px solid aqua;
+	transform: rotate(360deg);
+	transition: all 300ms;
+}
+
+// Current RH Page Styles End

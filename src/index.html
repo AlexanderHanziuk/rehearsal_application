@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<base href="/">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Aliaksandr Hanziuk" />
+	<meta name="description" content="This rehearsal application was created to make the lives of musicians easier.
+		Now you don't have to remember the time, place and rehearsal plan. Now you have the rehearsal application." />
+	<meta name="keywords" content="application, rehearsal, music, plans, time, place" />
+	<title>Rehearsal Application</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="main_title">Main Menu</h1>
+	<div class="container__links">
+		<a is="router-link" href="/statistics"><button class="button">Statistics</button></a>
+		<a is="router-link" href="/reservation"><button class="button">Reservation</button></a>
+		<a is="router-link" href="/current"><button class="button">Current Rehearsals</button></a>
+		<a is="router-link" href="/songs"><button class="button">Songs</button></a>
+		<a is="router-link" href="/draft"><button class="button">Draft</button></a>
+	</div>
+	<hr>
+	<router-outlet class="router_outlet">
+	</router-outlet>
+</body>
+
+</html>
